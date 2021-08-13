@@ -3,10 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer>
-      <hr />
-      <p className="pull-right">
-        <i className="fab fa-github" /> Proudly built using React.js
-      </p>
+      <h6>Copyright © Zachary Guldberg 2021</h6>
     </footer>
   );
 }
