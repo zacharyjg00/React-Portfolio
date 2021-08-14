@@ -16,10 +16,10 @@ export default function App() {
       <div >
         <Header />
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + '/'} component={AboutMe} />
-          <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
-          <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={Portfolio} />
-          <Route exact path={process.env.PUBLIC_URL + '/resume'} component={Resume} />
+          <Route exact path='/' component={AboutMe} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/resume' component={Resume} />
           <Route component={NoMatch} />
         </Switch>
         <Footer />
