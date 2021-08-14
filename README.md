@@ -21,7 +21,7 @@ This is an app that utilizes React technology to create a Portfolio for myself
 
 ![](./images/contact.JPG)
 
-**Above is an image of the Contact page **
+**Above is an image of the Contact page**
 
 </br>
 
@@ -32,5 +32,5 @@ This is an app that utilizes React technology to create a Portfolio for myself
 </br>
 
 ## Deployment Link
-https://zacharyjg00.github.io
+https://zacharyjg00.github.io/React-Portfolio/
        
