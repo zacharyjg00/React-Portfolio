@@ -6,7 +6,7 @@ export default function Project({ title, description, imgLink, repoLink, deployL
     const imageAlt = title + " homepage";
 
     return (
-        <div className="card col-5">
+        <div className="card col-md-5 col-sm-10">
             <h4>{title}</h4>
             <h6>{description}</h6>
             <img id="project-img" src={imgLink} alt={imageAlt} />
